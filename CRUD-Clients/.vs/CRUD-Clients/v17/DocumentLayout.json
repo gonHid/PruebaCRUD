@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|d:\\visualstudio editor\\projectos\\pruebacrud\\crud-clients\\webapi-clients\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|solutionrelative:webapi-clients\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|d:\\visualstudio editor\\projectos\\pruebacrud\\crud-clients\\webapi-clients\\controllers\\clientapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|solutionrelative:webapi-clients\\controllers\\clientapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|d:\\visualstudio editor\\projectos\\pruebacrud\\crud-clients\\webapi-clients\\dbcontext\\clientsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|solutionrelative:webapi-clients\\dbcontext\\clientsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|d:\\visualstudio editor\\projectos\\pruebacrud\\crud-clients\\webapi-clients\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|solutionrelative:webapi-clients\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5D15807-D220-4FF1-8E08-9F09DC5295C1}|WebAPI-Clients\\WebAPI-Clients.csproj|d:\\visualstudio editor\\projectos\\pruebacrud\\crud-clients\\webapi-clients\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClientAPIController.cs",
               "DocumentMoniker": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\Controllers\\ClientAPIController.cs",
               "RelativeDocumentMoniker": "WebAPI-Clients\\Controllers\\ClientAPIController.cs",
               "ToolTip": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\Controllers\\ClientAPIController.cs",
               "RelativeToolTip": "WebAPI-Clients\\Controllers\\ClientAPIController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAiwEgAAAAJAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAswFwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T22:07:34.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WebAPI-Clients.csproj",
               "DocumentMoniker": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\WebAPI-Clients.csproj",
               "RelativeDocumentMoniker": "WebAPI-Clients\\WebAPI-Clients.csproj",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClientsDbContext.cs",
               "DocumentMoniker": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\DBContext\\ClientsDbContext.cs",
               "RelativeDocumentMoniker": "WebAPI-Clients\\DBContext\\ClientsDbContext.cs",
@@ -75,15 +75,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "site.js",
               "DocumentMoniker": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WebAPI-Clients\\wwwroot\\js\\site.js",
               "ToolTip": "D:\\VisualStudio Editor\\projectos\\PruebaCRUD\\CRUD-Clients\\WebAPI-Clients\\wwwroot\\js\\site.js",
               "RelativeToolTip": "WebAPI-Clients\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA8AAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwEAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-05T22:06:58.285Z"
+              "WhenOpened": "2024-06-05T22:06:58.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

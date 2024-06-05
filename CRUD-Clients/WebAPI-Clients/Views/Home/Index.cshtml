@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Models.Client 
+
+<div class="text-center">
+    <h1 class="display-4"> Bienvenido </h1>
+    <p>Puede agregar clientes en el siguiente segmento:</p>
+
+
+<form id="cliente-form">
+    <label for="FirstName" class="col-form-label">Nombre:</label>
+    <input type="text" id="FirstName" name="FirstName" class="form-control-sm" />
+    <br />
+    <label for="LastName" class="col-form-label">Apellido:</label>
+    <input type="text" id="LastName" name="LastName" class="form-control-sm" />
+    <br />
+    <label for="Email" class="col-form-label">Email:</label>
+    <input type="email" id="Email" name="Email" class="form-control-sm" />
+    <br />
+    <br />
+    <button class="btn-primary btn" onclick="Guardar()" >GUARDAR CLIENTE</button>
+</form>
+</div>

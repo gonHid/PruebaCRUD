@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<input type="text" id="IdClient" />
+<button class="btn btn-primary" onclick="BuscaPorId()">Buscar por id</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody id="clientes-table">
+        <!-- Los datos de los clientes se agregarán aquí -->
+    </tbody>
+</table>
+    <script src="~/js/getClientes.js" asp-append-version="true"></script>

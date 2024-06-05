@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Models.Client
+<h1 class="display-4"> UPDATE </h1>
+<p>Puede actualizar clientes en el siguiente segmento:</p>
+
+<form id="cliente-form">
+    <label asp-for="Id"  class="col-form-label">Id:</label>
+    <input asp-for="Id" id="Id" class="form-control-sm" />
+    <br />
+    <label asp-for="FirstName" class="col-form-label">Nombre:</label>
+    <input asp-for="FirstName" id="FirstName" class="form-control-sm" />
+    <br />
+    <label asp-for="LastName" class="col-form-label">Apellido:</label>
+    <input asp-for="LastName" id="LastName" class="form-control-sm" />
+    <br />
+    <label asp-for="Email" class="col-form-label">Email:</label>
+    <input asp-for="Email" id="Email" class="form-control-sm" />
+    <br />
+    <label asp-for="State" class="col-form-label">Estado:</label>
+    <input asp-for="State" id="State" class="form-control-sm" />
+    <br />
+    <br />
+    <button class="btn-primary btn" onclick="Actualizar()">ACTUALIZAR CLIENT</button>
+</form>

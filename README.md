@@ -4,10 +4,12 @@
 <p style="text-align: justify;">
 Desarrollo de una aplicación web ASP.NET con API REST para el control de Clientes (CRUD). Este proyecto utiliza el patrón de diseño MVC para proporcionar una vista simple que facilita la interacción del usuario con los controladores. Se han creado servicios y repositorios en el directorio de la aplicación debido a su tamaño reducido, con el objetivo de mejorar la comprensión y escalabilidad del proyecto. Además, se implementó la opción de eliminar un cliente de forma lógica, aunque esta funcionalidad no está disponible en las vistas.
 </p>
+<p style="text-align: justify;">
 Para la creación de la base de datos SQLite se ha utilizado el paquete `Microsoft.EntityFrameworkCore.Sqlite`, simplificando así la interacción con la base de datos.
-
+</p>
+<p style="text-align: justify;">
 El sistema utiliza `Microsoft.Extensions.Logging` para generar logs en la consola en tiempo de ejecución, con mensajes detallados y personalizados según la situación presentada.
-
+</p>
 ## Endpoints en Postman
 
 Los endpoints y los datos necesarios para interactuar con los controladores son los siguientes:
